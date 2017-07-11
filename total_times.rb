@@ -1,6 +1,6 @@
 # die_num_one = Random.rand(6) + 1
 # die_num_two = Random.rand(6) + 1
-all_permutaions = 0
+all_permutaions = {}
 
 (2..12).each do |perm|
   all_permutaions[perm] = 0
